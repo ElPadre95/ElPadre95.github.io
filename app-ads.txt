@@ -1,0 +1,3 @@
+# app-ads.txt — authorized sellers of the ad inventory of the games published by this site.
+# Lines are added as soon as the AppLovin MAX and Google AdMob accounts are created
+# (AppLovin: Account > General > App-ads.txt Info; AdMob: google.com, pub-…, DIRECT, f08c47fec0942fa0).
