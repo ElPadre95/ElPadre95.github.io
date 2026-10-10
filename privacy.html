@@ -61,10 +61,13 @@ AdMob may also choose ads from other ad networks through its mediation; any netw
 <p>Without your consent (or if you refuse tracking), ads are not personalized: they are chosen from the context, such as your country or language.</p>
 
 <h3>Usage statistics</h3>
-<p>We use Google Analytics for Firebase to understand how the games are used (for example games started and finished, scores, daily challenge results, ads and purchases shown) in order to improve them. It processes an app instance identifier, device information, approximate location derived from the IP address and these events. It may use the advertising identifier only if you allow tracking. Statistics are viewed in aggregated form and kept for at most 14 months.</p>
+<p>We use Google Analytics for Firebase to understand how the games are used (for example games started and finished, scores, daily challenge results, leaderboard views and rank range, ads and purchases shown) in order to improve them. It processes an app instance identifier, device information, approximate location derived from the IP address and these events. It may use the advertising identifier only if you allow tracking. Statistics are viewed in aggregated form and kept for at most 14 months.</p>
 
 <h3>Crash reports</h3>
 <p>Firebase Crashlytics collects technical data when the game crashes (stack trace, device model, operating system version, free memory and a random installation identifier) so we can fix bugs. Crash reports are kept for 90 days.</p>
+
+<h3>Leaderboards (Game Center)</h3>
+<p>If you sign in to Apple's Game Center (the game asks only after your first daily challenge, or when you open the leaderboards), your daily challenge score with its number, your weekly total and your best score are sent to Game Center and shown to other players with your Game Center name, under Apple's privacy policy. The game only reads back your rank and the number of players; with your permission, it also reads your rank among your Game Center friends. None of this is stored on our side. You can sign out in the Settings app (Game Center) at any time.</p>
 
 <h3>Remote settings</h3>
 <p>At launch, the game downloads a few settings from Firebase Remote Config, such as how often ads may appear, so we can adjust them without an update; they can only make ads rarer, never more frequent. To get them, the game sends its identifiers, a random installation identifier, the version of iOS and your country, language and time zone.</p>
@@ -119,10 +122,13 @@ AdMob peut aussi choisir des publicités d'autres régies grâce à sa médiatio
 <p>Sans ton consentement (ou si tu refuses le suivi), les publicités ne sont pas personnalisées : elles sont choisies selon le contexte, par exemple ton pays ou ta langue.</p>
 
 <h3>Statistiques d'utilisation</h3>
-<p>Nous utilisons Google Analytics pour Firebase pour comprendre comment les jeux sont utilisés (par exemple parties commencées et terminées, scores, résultats du défi du jour, publicités et achats proposés) afin de les améliorer. Le service traite un identifiant d'installation, des informations sur l'appareil, une localisation approximative déduite de l'adresse IP et ces événements. Il ne peut utiliser l'identifiant publicitaire que si tu autorises le suivi. Les statistiques sont consultées sous forme agrégée et conservées au maximum 14 mois.</p>
+<p>Nous utilisons Google Analytics pour Firebase pour comprendre comment les jeux sont utilisés (par exemple parties commencées et terminées, scores, résultats du défi du jour, consultation des classements et tranche de rang, publicités et achats proposés) afin de les améliorer. Le service traite un identifiant d'installation, des informations sur l'appareil, une localisation approximative déduite de l'adresse IP et ces événements. Il ne peut utiliser l'identifiant publicitaire que si tu autorises le suivi. Les statistiques sont consultées sous forme agrégée et conservées au maximum 14 mois.</p>
 
 <h3>Rapports de plantage</h3>
 <p>Firebase Crashlytics collecte des données techniques quand le jeu plante (trace de l'erreur, modèle d'appareil, version du système, mémoire libre et un identifiant d'installation aléatoire) pour nous permettre de corriger les bugs. Les rapports sont conservés 90 jours.</p>
+
+<h3>Classements (Game Center)</h3>
+<p>Si tu te connectes à Game Center d'Apple (le jeu ne le demande qu'après ton premier défi du jour, ou quand tu ouvres les classements), ton score du défi du jour avec son numéro, ton total de la semaine et ton meilleur score sont envoyés à Game Center et affichés aux autres joueurs avec ton nom Game Center, selon la politique de confidentialité d'Apple. Le jeu lit seulement ton rang et le nombre de joueurs ; avec ton accord, il lit aussi ton rang parmi tes amis Game Center. Rien de tout cela n'est conservé chez nous. Tu peux te déconnecter à tout moment dans l'app Réglages (Game Center).</p>
 
 <h3>Réglages à distance</h3>
 <p>Au lancement, le jeu télécharge quelques réglages depuis Firebase Remote Config, par exemple la fréquence des publicités, pour que nous puissions les ajuster sans mise à jour ; ils peuvent seulement rendre les publicités plus rares, jamais plus fréquentes. Pour les obtenir, le jeu envoie ses identifiants, un identifiant d'installation aléatoire, la version d'iOS et ton pays, ta langue et ton fuseau horaire.</p>
